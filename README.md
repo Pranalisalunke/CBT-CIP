@@ -1,2 +1,2 @@
 # CBT-CIP
-new repository
+internship task
