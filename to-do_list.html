@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>To-Do List</title>
+	<link rel="stylesheet" type="text/css" href="to-do_list.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="jquery.min.js">
+</head>
+<body class="body">
+	<br><br>
+	<br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6 well ">
+			<center>
+				<h2>To-Do List 
+					<img class="img" src="list.png">
+				</h2>
+				<br>
+				
+				<div class="row">
+				 	<div class="col-sm-12">
+				 		<input type="text" name="text" id="inp" placeholder="Add Your Task">
+				 		<button class="btn" id="addTask" onclick="cal()">Add</button>
+				 	</div>
+				</div>
+			</center>
+				 <ul id="list-container">
+				 	<!-- <li class="checked">Task 1</li>
+				 	<li class="">Task 2</li>
+				 	<li class="">Task 3</li> -->
+				 </ul>
+			</div>	
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
